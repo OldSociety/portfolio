@@ -6,9 +6,9 @@ import { Route, Routes } from 'react-router-dom';
 //AppLayout replaces App.jsx as the central hub of this the Application. 
 
 //Core Components
-import Home from './Core/Home';
-import Header from './Core/Header';
-import Footer from './Core/Footer';
+import Home from '../Core/Home';
+import Header from '../Core/Header';
+import Footer from '../Core/Footer';
 
 
 const Layout = () => {
