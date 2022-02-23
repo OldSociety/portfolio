@@ -3,7 +3,7 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-      <h1 className='header'>Hi, I'm Austin Lance, web developer</h1>
+      <h1 className='header'>Austin Lance, web developer</h1>
       <div className="">Full-stack Developer</div>
       <a className="flat-button" rel="contact" href="/contact">
         <div className="">
