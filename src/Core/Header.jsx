@@ -2,21 +2,21 @@ import React from 'react'
 
 const Header = () => {
   return (
-    <div className="nav">
+    <section id="masthead" className="masthead loaded">
       <div className="container">
-        <div className="col">
-          <div className="row">
+        <div className="row">
+          <div className="col">
+          <nav>
             <ul>
-              <li>01. About</li>
-              <li>02. Experience</li>
-              <li>03. Work</li>
-              <li>04. Contact</li>
+              <li>Work</li>
+              <li>Contact</li>
               <li><button type='submit'>Resume</button></li>
             </ul>
+            </nav>
           </div>
         </div>
       </div>
-    </div>
+    </section>
   )
 }
 

@@ -3,13 +3,13 @@ import React from 'react'
 const Home = () => {
   return (
     <>
-      <h1 className='header'>Austin Lance, web developer</h1>
-      <div className="">Full-stack Developer</div>
+      <h1 className='header'>Austin Lance, full-stack developer</h1>
+      <p className="grey-text">full-stack developer</p>
       <a className="flat-button" rel="contact" href="/contact">
         <div className="">
           <span className='bg'></span>
           <span className='base'></span>
-          <span className='text'>Contact me!</span>
+          <span className='contact_body'>Say Hello!</span>
         </div>
       </a>
     </>

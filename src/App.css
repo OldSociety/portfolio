@@ -1,37 +1,120 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+* {
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  background-color: #252422;
-  color: #fffcf2;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+  background-color: #000;
+  color: #fff;
   font-size: 15px;
   margin: 0;
   padding: 20px 0;
   scrollbar-color: #eb5e28;
 }
 
+.header {
+  text-align: left;
+  font-size: 10vmin;
+  line-height: 1;
+  letter-spacing: 4px;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(90deg, black, white, black);
+  background-size: 70% 100%;
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  animation: shade 10s linear infinite;
+}
+
+@keyframes shade {
+  0% {
+    background-position-x: -500%;
+  }
+  100% {
+    background-position-x: 500%;
+  }
+}
+
+.App {
+  text-align: center;
+}
+
 ul li {
   display: inline;
-  color: #fffcf2;
+  color: #fff;
   list-style-type: none;
   margin: 5px;
   padding: 2px;
 }
 
-.header {
-  color: #eb5e28;
-  font-size: 50px;
+nav {
+  text-align: right;
+  margin: 50px;
+  padding: 20px;
 }
 
-.nav {
-  text-align: right;
+.masthead.loaded {
+  transform: none !important;
 }
 
-.footer {
-  text-align: right;
-}
+/* .masthead {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 90px;
+  padding-right: 90px;
+  background-color: transparent;
+} */
+
+/* .footer {
+  text-align: center;
+  text-decoration: none;
+  margin: 50px;
+  padding: 2px;
+} */
 
 a {
   color: #fffcf2;
+  text-align: left;
+}
+
+section {
+  display: block;
+}
+
+.earxGk {
+  display: flex;
+  -moz-box-pack: center;
+  justify-content: center;
+  -moz-box-align: center;
+  align-items: center;
+  flex-direction: column;
+  height: auto;
+  min-height: 70px;
+  padding: 15px;
+  text-align: center;
+  font-weight: lighter;
+}
+
+.grey-text {
+  font-size: 1.6rem;
+  letter-spacing: 4px;
+  margin: 1rem 0 1rem;
+  display: block;
+  color: #8d8d8d;
+}
+
+.contact_body {
+  font-size: 1rem;
+  letter-spacing: 4px;
+  margin: 0 0 1rem;
+  display: block;
+  color: #8d8d8d;
 }

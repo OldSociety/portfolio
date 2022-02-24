@@ -15,7 +15,6 @@ import Featured from './Featured'
 import Experience from './Experience'
 import About from './About'
 import Contact from './Contact'
-import Nav from './Nav'
 
 const AppLayout = () => {
   return (
@@ -34,8 +33,6 @@ const AppLayout = () => {
         <Experience />
         <Projects />
         <Featured />
-        <Contact />
-        <Nav />
       </div>
       <Footer />
     </div>

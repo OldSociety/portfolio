@@ -1,5 +1,5 @@
-import 'bootstrap/dist/css/bootstrap.min.css'
-import 'bootstrap/dist/js/bootstrap'
+// import 'bootstrap/dist/css/bootstrap.min.css'
+// import 'bootstrap/dist/js/bootstrap'
 
 import * as React from 'react'
 import { Route, Routes } from 'react-router-dom';
