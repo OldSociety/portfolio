@@ -33,6 +33,7 @@ const AppLayout = () => {
         <Experience />
         <Projects />
         <Featured />
+        <Contact />
       </div>
       <Footer />
     </div>

@@ -8,9 +8,6 @@ const Footer = () => {
         <div className="container">
           <div className="col">
             <div className="row">{`Designed & Deployed by Austin Lance`}</div>
-            <a href="https://github.com/OldSociety" className="row">
-              source code
-            </a>
           </div>
           <p />
           <div className="row">
@@ -78,6 +75,9 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
+            <a href="https://github.com/OldSociety" className="row">
+              source code
+            </a>
           </div>
         </div>
       </footer>
